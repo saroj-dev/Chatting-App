@@ -31,6 +31,7 @@ const MessageDisplayArea = () => {
           last.data.push(el.data);
         }
       }
+      output.reverse();
       setMessage(output);
     });
   }, []);
