@@ -12,7 +12,7 @@ function Header() {
                   <img src={LogoIcon} alt="Not Found"/> 
               </div>
               <div className="logo_name">
-                  SR Boyz <small>Connecting together</small>
+                  SR Boyz <small>Connects You</small>
               </div>
           </div>
           <div className="active_status">
