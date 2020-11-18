@@ -2,8 +2,7 @@ import React from 'react';
 import '../css/ChattingBox.css'; 
  
 function Header() {
-    const LogoIcon = 'https://images.pexels.com/photos/4350664/pexels-photo-4350664.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260';
-
+    const LogoIcon = "https://images.pexels.com/photos/2657669/pexels-photo-2657669.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
     return (
       <>
       <div className="header">
