@@ -1,8 +1,9 @@
 import React from 'react';
-import '../css/ChattingBox.css';
-import LogoIcon from '../img/logo.jpg'
+import '../css/ChattingBox.css'; 
  
 function Header() {
+    const LogoIcon = 'https://images.pexels.com/photos/4350664/pexels-photo-4350664.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260';
+
     return (
       <>
       <div className="header">
@@ -11,12 +12,12 @@ function Header() {
                   <img src={LogoIcon} alt="Not Found"/> 
               </div>
               <div className="logo_name">
-                  SR Boyz 
+                  SR Boyz <small>Connecting together</small>
               </div>
           </div>
           <div className="active_status">
               Active People
-              <span>5</span>
+              <span>2</span>
           </div>
       </div>
       </>  
